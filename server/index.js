@@ -24,7 +24,7 @@ app.use(cookieParser());
 // // to entertain request of frontend
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "https://study-notion-ten-fawn.vercel.app/",
         credentials: true,
     })
 );
