@@ -24,7 +24,7 @@ app.use(cookieParser());
 // // to entertain request of frontend
 app.use(
     cors({
-        origin: "https://study-notion-ten-fawn.vercel.app/",
+        origin: "https://study-notion-ten-fawn.vercel.app",
         credentials: true,
     })
 );
