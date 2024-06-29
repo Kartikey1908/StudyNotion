@@ -3,7 +3,6 @@ const {instance} = require('../config/razorpay');
 const Course = require('../models/Course');
 const User = require('../models/User');
 const mailSender = require('../utils/mailSender');
-const { json } = require('react-router-dom');
 const crypto = require("crypto");
 const CourseProgress = require('../models/CourseProgress');
 const { paymentSuccessEmail } = require('../mail/templates/paymentSuccessEmail');
