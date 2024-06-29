@@ -89,7 +89,7 @@ const Navbar = () => {
                                                 flex flex-col select-none gap-2 font-semibold'></div>
                                                 {loading ? (
                                                     <p className='text-center'>Loading...</p>
-                                                ) : subLinks.length ? (
+                                                ) : subLinks?.length ? (
                                                        
                                                         subLinks
                                                             ?.filter( (subLink) => subLink?.courses?.length > 0
@@ -195,7 +195,7 @@ const Navbar = () => {
                                                     <div className='h-0 overflow-hidden group-hover:h-fit transition-all duration-200'>
                                                         {   loading ? (
                                                                 <p className='text-center'>Loading...</p>
-                                                            ) : subLinks.length ? (
+                                                            ) : subLinks?.length ? (
                                                             
                                                                 subLinks
                                                                     ?.filter( (subLink) => subLink?.courses?.length > 0
